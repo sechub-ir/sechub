@@ -30,7 +30,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-18",
-    "addedDate": "2024-09-24"
+    "addedDate": "2024-09-24",
+    "slug": "vulnerabilities-in-open-source-c2-frameworks"
   },
   {
     "id": 2,
@@ -53,7 +54,8 @@
     ],
     "bounty": "$2,500",
     "publicationDate": "2024-09-18",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "node-package-rce-dependency-confusion"
   },
   {
     "id": 3,
@@ -74,7 +76,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-16",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "salesforce-public-links-soql-injection"
   },
   {
     "id": 4,
@@ -97,7 +100,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-13",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "powershell-clixml-deserialization-rce"
   },
   {
     "id": 5,
@@ -118,7 +122,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-13",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "logic-flaw-account-access-block"
   },
   {
     "id": 6,
@@ -139,7 +144,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-13",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "azure-api-management-reader-to-contributor"
   },
   {
     "id": 7,
@@ -166,7 +172,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-13",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "macos-zero-click-calendar-chain"
   },
   {
     "id": 8,
@@ -189,7 +196,8 @@
     ],
     "bounty": "$2,000",
     "publicationDate": "2024-09-12",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "account-takeover-host-header-injection"
   },
   {
     "id": 9,
@@ -210,7 +218,8 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-12",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "windows-msi-repair-system-privilege-escalation"
   },
   {
     "id": 10,
@@ -233,6 +242,7 @@
     ],
     "bounty": "-",
     "publicationDate": "2024-09-11",
-    "addedDate": "2024-09-18"
+    "addedDate": "2024-09-18",
+    "slug": "mobi-rce-tld-hacking"
   }
 ]

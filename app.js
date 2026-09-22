@@ -28,8 +28,13 @@ function toFaDigits(value) {
 
 function formatDate(value) {
   if (!value) return "—";
-  const [y, m, d] = String(value).split("-");
-  return y && m && d ? `${toFaDigits(y)}/${toFaDigits(m)}/${toFaDigits(d)}` : toFaDigits(value);
+  const date = new Date(`${value}T12:00:00Z`);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat("fa-IR-u-ca-persian", {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  }).format(date);
 }
 
 function normalize() {
@@ -63,7 +68,7 @@ function card(w) {
   const bounty = w.bounty && w.bounty !== "-" ? ` · ${escapeHtml(w.bounty)}` : "";
 
   return `
-    <a class="writeup" href="${escapeHtml(w.url)}" target="_blank" rel="noreferrer">
+    <a class="writeup" href="writeups/${escapeHtml(w.slug)}.html">
       <div class="writeup-top">
         <div>
           <h3>${escapeHtml(w.titleFa)}</h3>
@@ -71,7 +76,7 @@ function card(w) {
         </div>
         <span class="meta">${escapeHtml(formatDate(w.publicationDate))}</span>
       </div>
-      <p class="original-title">${escapeHtml(w.title)}</p>
+      <p class="original-title">${escapeHtml(w.title)}</p><div class="source-line">منبع اصلی: ${escapeHtml(new URL(w.url).hostname.replace(/^www\./, ""))}</div>
       <div class="tags">${tags}</div>
     </a>
   `;
