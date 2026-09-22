@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="مرجع فارسی رایتاپ‌ها و پژوهش‌های امنیت سایبری">
+  <title>SecHub | رایتاپ‌های امنیتی فارسی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#"><span class="brand-mark">S</span><span>Sec<span class="brand-accent">Hub</span></span></a>
+      <nav>
+        <a class="active" href="#writeups">رایتاپ‌ها</a>
+        <a href="#topics">دسته‌بندی‌ها</a>
+        <a href="#about">درباره پروژه</a>
+      </nav>
+      <a class="github-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="status-pill"><span></span> کتابخانه فارسی پژوهش‌های امنیتی</div>
+        <h1>رایتاپ‌های امنیتی،<br><em>ساده و فارسی.</em></h1>
+        <p>مجموعه‌ای مرتب از تجربه‌های باگ‌بانتی، تحقیقات امنیتی و تحلیل‌های فنی؛ برای یادگیری عمیق‌تر و دسترسی سریع‌تر به دانش امنیت.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#writeups">مرور رایتاپ‌ها <b>←</b></a>
+          <a class="button secondary" href="#about">درباره SecHub</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>۰۴</strong><span>رایتاپ نمونه</span></div>
+          <div><strong>۰۵+</strong><span>دسته امنیتی</span></div>
+          <div><strong>۱۰۰٪</strong><span>رابط فارسی</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="code-window">
+          <div class="window-bar"><span></span><span></span><span></span><small>sechub / research</small></div>
+          <div class="code-body">
+            <p><i>01</i><span class="purple">const</span> <b>mission</b> = {</p>
+            <p><i>02</i>&nbsp;&nbsp;language: <mark>"fa"</mark>,</p>
+            <p><i>03</i>&nbsp;&nbsp;focus: <mark>"security"</mark>,</p>
+            <p><i>04</i>&nbsp;&nbsp;access: <mark>"open"</mark></p>
+            <p><i>05</i>};</p>
+            <div class="terminal-result"><span>✓</span> knowledge.shared()</div>
+          </div>
+        </div>
+        <div class="floating-card"><span>◈</span><div><b>Security Research</b><small>ترجمه · تحلیل · یادگیری</small></div></div>
+      </div>
+    </section>
+
+    <section id="writeups" class="container section">
+      <div class="section-heading">
+        <div><p class="eyebrow">WRITEUP LIBRARY</p><h2>کتابخانه رایتاپ‌ها</h2><p>محتوا را بر اساس موضوع یا کلیدواژه پیدا کن.</p></div>
+        <span id="count" class="count"></span>
+      </div>
+      <div class="toolbar">
+        <div class="search-box"><span>⌕</span><input id="search" type="search" placeholder="جست‌وجوی رایتاپ، تگ یا برنامه..."></div>
+        <select id="category"><option value="">همه دسته‌ها</option><option value="XSS">XSS</option><option value="IDOR">IDOR</option><option value="CSRF">CSRF</option><option value="SQLi">SQL Injection</option><option value="SSRF">SSRF</option></select>
+      </div>
+      <div id="writeup-list" class="writeup-list"></div>
+      <p id="empty" class="empty" hidden>رایتاپی با این مشخصات پیدا نشد.</p>
+    </section>
+<section id="about" class="container about section">
+      <div><p class="eyebrow">ABOUT SECHUB</p><h2>دانش امنیت،<br>به زبان خودمان.</h2></div>
+      <p>SecHub یک پروژه مستقل و استاتیک برای گردآوری، ترجمه، خلاصه‌سازی و تحلیل رایتاپ‌های امنیتی است. هدف، ساخت یک مرجع فارسی خوانا و قابل جست‌وجو با ارجاع شفاف به منابع اصلی است.</p>
+    </section>
+  </main>
+  <footer class="container footer"><span>© 2026 SecHub</span><span>Built with curiosity & security.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

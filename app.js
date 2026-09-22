@@ -1,0 +1,9 @@
+const writeups=[
+{title:"از یک درخواست ساده تا کشف آسیب‌پذیری IDOR",description:"بررسی کنترل دسترسی و تغییر شناسه منابع در یک برنامه وب.",tags:["IDOR","Access Control"],category:"IDOR",program:"Example Program",date:"۱۴۰۵/۰۶/۳۰",url:"#"},
+{title:"تحلیل یک سناریوی CSRF در تغییر تنظیمات حساب",description:"چطور نبود کنترل‌های مناسب درخواست می‌تواند به تغییر ناخواسته داده منجر شود.",tags:["CSRF","Web Security"],category:"CSRF",program:"Example Program",date:"۱۴۰۵/۰۶/۲۸",url:"#"},
+{title:"بررسی بازتاب ورودی و مسیرهای احتمالی XSS",description:"مروری آموزشی بر ردیابی ورودی کاربر تا محل خروجی در یک برنامه وب.",tags:["XSS","Input Validation"],category:"XSS",program:"Example Target",date:"۱۴۰۵/۰۶/۲۵",url:"#"},
+{title:"SQL Injection؛ از مشاهده خطا تا تحلیل اثر امنیتی",description:"توضیح روند تحلیل خطاهای ورودی و اهمیت کوئری‌های پارامتری.",tags:["SQLi","Database"],category:"SQLi",program:"Example Target",date:"۱۴۰۵/۰۶/۲۱",url:"#"}];
+const list=document.querySelector("#writeup-list"),search=document.querySelector("#search"),category=document.querySelector("#category"),count=document.querySelector("#count"),empty=document.querySelector("#empty");
+function render(){const q=search.value.trim().toLowerCase(),cat=category.value;const items=writeups.filter(w=>(!cat||w.category===cat)&&[w.title,w.description,w.program,...w.tags].join(" ").toLowerCase().includes(q));count.textContent=`${items.length} رایتاپ`;list.innerHTML=items.map(w=>`<a class="writeup" href="${w.url}"><div class="writeup-top"><div><h3>${w.title}</h3><p>${w.description}</p></div><span class="meta">${w.date}</span></div><div class="tags">${w.tags.map(t=>`<span class="tag">${t}</span>`).join("")}<span class="meta">${w.program}</span></div></a>`).join("");empty.hidden=items.length!==0}
+search.addEventListener("input",render);category.addEventListener("change",render);
+render()}));render();
