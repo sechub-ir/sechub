@@ -5,3 +5,14 @@
 .topic-grid a:hover{border-color:var(--green);color:var(--green)}
 .about{display:grid;grid-template-columns:1fr 1fr;gap:60px;border-top:1px solid #ffffff0b}.about>p{color:var(--muted);font-size:14px;margin:0;align-self:center}.footer{border-top:1px solid #ffffff0b;padding:28px 0 40px;display:flex;justify-content:space-between;color:#647582;font-size:11px}.empty{color:var(--muted);font-size:13px}@media(max-width:800px){.nav{height:70px;gap:18px}.nav nav{display:none}.github-link{margin-right:auto}.hero{grid-template-columns:1fr;gap:45px;padding:65px 0}.hero-visual{min-height:300px}.floating-card{right:0}.hero-stats{gap:24px}
 .about{grid-template-columns:1fr;gap:20px}.section-heading{align-items:start;gap:15px;flex-direction:column}.toolbar{flex-direction:column}select{width:100%}.writeup-top{flex-direction:column;gap:4px}.footer{flex-direction:column;gap:7px}}
+
+
+.loading,.load-error{padding:24px;border:1px solid rgba(255,255,255,.08);border-radius:16px;background:rgba(255,255,255,.03);text-align:center}
+.load-error p{opacity:.75}
+.load-error a{display:inline-block;margin-top:8px}
+.pagination{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:24px}
+.pagination button{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:inherit;border-radius:10px;padding:9px 14px;cursor:pointer}
+.pagination button:disabled{opacity:.4;cursor:not-allowed}
+.multi-links{margin-top:10px;font-size:.82rem;opacity:.6}
+
+.original-title{font-size:.82rem;opacity:.55;direction:ltr;text-align:left;margin:8px 0 0;}

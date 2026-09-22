@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "title": "Vulnerabilities in Open Source C2 Frameworks",
+    "titleFa": "آسیب‌پذیری‌ها در فریم‌ورک‌های متن‌باز C2",
+    "url": "https://blog.includesecurity.com/2024/09/vulnerabilities-in-open-source-c2-frameworks/",
+    "bugs": [
+      "RCE",
+      "OS command injection",
+      "Authentication bypass",
+      "Arbitrary file download",
+      "Privilege escalation"
+    ],
+    "bugsFa": [
+      "اجرای کد از راه دور (RCE)",
+      "تزریق فرمان سیستم‌عامل",
+      "دور زدن احراز هویت",
+      "دانلود دلخواه فایل",
+      "ارتقای سطح دسترسی"
+    ],
+    "programs": [
+      "Bishop Fox (Sliver)",
+      "Havoc",
+      "Ninja C2",
+      "SHAD0W",
+      "Covenant"
+    ],
+    "authors": [
+      "Laurence Tennant"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-18",
+    "addedDate": "2024-09-24"
+  },
+  {
+    "id": 2,
+    "title": "\\[2,500$ Bug Bounty Write-Up\\] Remote Code Execution (RCE) via unclaimed Node package",
+    "titleFa": "رایتاپ باگ‌بانتی ۲۵۰۰ دلاری: اجرای کد از راه دور از طریق پکیج بدون مالک Node",
+    "url": "https://medium.com/@p0lyxena/2-500-bug-bounty-write-up-remote-code-execution-rce-via-unclaimed-node-package-6b9108d10643",
+    "bugs": [
+      "RCE",
+      "Dependency confusion"
+    ],
+    "bugsFa": [
+      "اجرای کد از راه دور (RCE)",
+      "سردرگمی وابستگی (Dependency Confusion)"
+    ],
+    "programs": [
+      "-"
+    ],
+    "authors": [
+      "Fuleki Ioan"
+    ],
+    "bounty": "$2,500",
+    "publicationDate": "2024-09-18",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 3,
+    "title": "Data Theft in Salesforce: Manipulating Public Links",
+    "titleFa": "سرقت داده در Salesforce: دستکاری لینک‌های عمومی",
+    "url": "https://www.varonis.com/blog/manipulating-salesforce-public-links",
+    "bugs": [
+      "SOQL injection"
+    ],
+    "bugsFa": [
+      "تزریق SOQL"
+    ],
+    "programs": [
+      "Salesforce"
+    ],
+    "authors": [
+      "Nitay Bachrach"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-16",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 4,
+    "title": "Attacking PowerShell CLIXML Deserialization",
+    "titleFa": "حمله به Deserialization در PowerShell CLIXML",
+    "url": "https://www.truesec.com/hub/blog/attacking-powershell-clixml-deserialization",
+    "bugs": [
+      "Insecure deserialization",
+      "RCE"
+    ],
+    "bugsFa": [
+      "Deserialization ناامن",
+      "اجرای کد از راه دور (RCE)"
+    ],
+    "programs": [
+      "Microsoft"
+    ],
+    "authors": [
+      "Alexander Andersson"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-13",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 5,
+    "title": "Logic Flaw: I Can Block You from Accessing Your Own Account",
+    "titleFa": "نقص منطقی: می‌توانم دسترسی شما به حساب خودتان را مسدود کنم",
+    "url": "https://medium.com/@hashimamin/logic-flaw-i-can-block-you-from-accessing-your-own-account-63fc2a88bb72",
+    "bugs": [
+      "Logic flaw"
+    ],
+    "bugsFa": [
+      "نقص منطقی"
+    ],
+    "programs": [
+      "-"
+    ],
+    "authors": [
+      "Hashim Amin"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-13",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 6,
+    "title": "Escalating From Reader To Contributor In Azure API Management",
+    "titleFa": "ارتقای دسترسی از Reader به Contributor در Azure API Management",
+    "url": "https://binarysecurity.no/posts/2024/09/apim-privilege-escalation",
+    "bugs": [
+      "Privilege escalation"
+    ],
+    "bugsFa": [
+      "ارتقای سطح دسترسی"
+    ],
+    "programs": [
+      "Microsoft (Azure)"
+    ],
+    "authors": [
+      "Christian Håland"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-13",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 7,
+    "title": "Zero-Click Calendar invite — Critical zero-click vulnerability chain in macOS",
+    "titleFa": "دعوت‌نامه تقویم Zero-Click — زنجیره آسیب‌پذیری بحرانی بدون نیاز به تعامل کاربر در macOS",
+    "url": "https://mikko-kenttala.medium.com/zero-click-calendar-invite-critical-zero-click-vulnerability-chain-in-macos-a7a434fc887b",
+    "bugs": [
+      "RCE",
+      "Arbitrary file write",
+      "Arbitrary file delete",
+      "TCC bypass"
+    ],
+    "bugsFa": [
+      "اجرای کد از راه دور (RCE)",
+      "نوشتن دلخواه فایل",
+      "حذف دلخواه فایل",
+      "دور زدن TCC"
+    ],
+    "programs": [
+      "Apple (macOS)"
+    ],
+    "authors": [
+      "Mikko Kenttälä (@Turmio\\_)"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-13",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 8,
+    "title": "Interesting Story of an Account Takeover Vulnerability",
+    "titleFa": "داستان جالب یک آسیب‌پذیری تصاحب حساب",
+    "url": "https://medium.com/@deepanshudev369/interesting-story-of-an-account-takeover-vulnerability-140a45a058a3",
+    "bugs": [
+      "Account takeover",
+      "Host header injection"
+    ],
+    "bugsFa": [
+      "تصاحب حساب",
+      "تزریق هدر Host"
+    ],
+    "programs": [
+      "-"
+    ],
+    "authors": [
+      "Deepanshu (@golu_369)"
+    ],
+    "bounty": "$2,000",
+    "publicationDate": "2024-09-12",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 9,
+    "title": "Microsoft Windows MSI Installer - Repair to SYSTEM - A detailed journey",
+    "titleFa": "نصب‌کننده MSI ویندوز مایکروسافت — ارتقا به SYSTEM از طریق Repair — یک بررسی فنی کامل",
+    "url": "https://sec-consult.com/blog/detail/msi-installer-repair-to-system-a-detailed-journey/",
+    "bugs": [
+      "Local Privilege Escalation"
+    ],
+    "bugsFa": [
+      "ارتقای سطح دسترسی محلی"
+    ],
+    "programs": [
+      "Microsoft (Windows)"
+    ],
+    "authors": [
+      "Michael Baer"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-12",
+    "addedDate": "2024-09-18"
+  },
+  {
+    "id": 10,
+    "title": "We Spent $20 To Achieve RCE And Accidentally Became The Admins Of .MOBI",
+    "titleFa": "۲۰ دلار خرج کردیم تا به RCE برسیم و تصادفاً مدیران .MOBI شدیم",
+    "url": "https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/",
+    "bugs": [
+      "RCE",
+      "TLD hacking"
+    ],
+    "bugsFa": [
+      "اجرای کد از راه دور (RCE)",
+      "هک TLD"
+    ],
+    "programs": [
+      "-"
+    ],
+    "authors": [
+      "watchTowr (@watchtowrcyber)"
+    ],
+    "bounty": "-",
+    "publicationDate": "2024-09-11",
+    "addedDate": "2024-09-18"
+  }
+]

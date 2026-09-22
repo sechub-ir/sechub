@@ -13,8 +13,7 @@
       <a class="brand" href="#"><span class="brand-mark">S</span><span>Sec<span class="brand-accent">Hub</span></span></a>
       <nav>
         <a class="active" href="#writeups">رایتاپ‌ها</a>
-        <a href="#topics">دسته‌بندی‌ها</a>
-        <a href="#about">درباره پروژه</a>
+          <a href="#about">درباره پروژه</a>
       </nav>
       <a class="github-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
     </div>
@@ -31,9 +30,9 @@
           <a class="button secondary" href="#about">درباره SecHub</a>
         </div>
         <div class="hero-stats">
-          <div><strong>۰۴</strong><span>رایتاپ نمونه</span></div>
-          <div><strong>۰۵+</strong><span>دسته امنیتی</span></div>
-          <div><strong>۱۰۰٪</strong><span>رابط فارسی</span></div>
+          <div><strong id="stat-count">—</strong><span>رایتاپ در فهرست</span></div>
+          <div><strong id="stat-tags">—</strong><span>نوع آسیب‌پذیری</span></div>
+          <div><strong>فا</strong><span>رابط فارسی</span></div>
         </div>
       </div>
       <div class="hero-visual">
@@ -55,19 +54,19 @@
 
     <section id="writeups" class="container section">
       <div class="section-heading">
-        <div><p class="eyebrow">WRITEUP LIBRARY</p><h2>کتابخانه رایتاپ‌ها</h2><p>محتوا را بر اساس موضوع یا کلیدواژه پیدا کن.</p></div>
+        <div><p class="eyebrow">WRITEUP LIBRARY</p><h2>کتابخانه رایتاپ‌ها</h2><p>۱۰ رایتاپ اول آماده شده‌اند؛ بر اساس عنوان، نویسنده، برنامه یا نوع آسیب‌پذیری جست‌وجو کن.</p></div>
         <span id="count" class="count"></span>
       </div>
       <div class="toolbar">
         <div class="search-box"><span>⌕</span><input id="search" type="search" placeholder="جست‌وجوی رایتاپ، تگ یا برنامه..."></div>
-        <select id="category"><option value="">همه دسته‌ها</option><option value="XSS">XSS</option><option value="IDOR">IDOR</option><option value="CSRF">CSRF</option><option value="SQLi">SQL Injection</option><option value="SSRF">SSRF</option></select>
+        <select id="category"><option value="">همه نوع‌ها</option></select>
       </div>
       <div id="writeup-list" class="writeup-list"></div>
       <p id="empty" class="empty" hidden>رایتاپی با این مشخصات پیدا نشد.</p>
     </section>
 <section id="about" class="container about section">
       <div><p class="eyebrow">ABOUT SECHUB</p><h2>دانش امنیت،<br>به زبان خودمان.</h2></div>
-      <p>SecHub یک پروژه مستقل و استاتیک برای گردآوری، ترجمه، خلاصه‌سازی و تحلیل رایتاپ‌های امنیتی است. هدف، ساخت یک مرجع فارسی خوانا و قابل جست‌وجو با ارجاع شفاف به منابع اصلی است.</p>
+      <p>SecHub یک پروژه مستقل و استاتیک برای گردآوری، ترجمه، خلاصه‌سازی و تحلیل رایتاپ‌های امنیتی است. فهرست رایتاپ‌ها از فهرست عمومی <a href="https://pentester.land/writeups.json" target="_blank" rel="noreferrer">Pentester Land</a> استفاده می‌کند و منبع اصلی هر مورد در کارت آن حفظ می‌شود.</p>
     </section>
   </main>
   <footer class="container footer"><span>© 2026 SecHub</span><span>Built with curiosity & security.</span></footer>
